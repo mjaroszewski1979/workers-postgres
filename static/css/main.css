@@ -1,0 +1,42 @@
+a {
+    text-decoration: None;
+    color: white;
+}
+#worker-detail {
+    color: black;
+}
+#worker-update:hover {
+    color: white;
+}
+a.navbar-item:hover {
+    color: black;
+}
+.step-links a{
+    color: rgb(87, 86, 86);
+}
+input[type=file]::file-selector-button {
+    background-color: white;
+    color: black;
+    padding: .5em;
+    border-radius: .2em;
+    margin-top: .3em;
+    cursor: pointer;
+  }
+.csv {
+    color: black;
+}
+
+.notification.is-toast {
+    position: fixed;
+    bottom: 100%;
+    right: 20px;
+    animation-name: show-toast;
+    animation-duration: 4s;
+}
+
+@keyframes show-toast {
+    0%   {bottom: -100%;}
+    20%  {bottom: 50px;}
+    80%  {bottom: 50px;}
+    100% {bottom: -100%;}
+}
