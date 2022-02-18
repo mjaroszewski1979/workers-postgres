@@ -10,7 +10,7 @@
 * Writing as much functionality as possible in models or utility files instead of views 
 * Using Model Manager - an interface through which database query operations are provided to Django models
 * Performing AJAX requests from Django templates using JQuery to allow for web pages to be updated asynchronously by exchanging data with a web server behind the scenes
-* ElephantSQL - cluster of managed PostgreSQL servers in cloud-hosted databases that let you store data in a structured way
+* Connecting application to ElephantSQL - cluster of managed PostgreSQL servers in cloud-hosted databases that let you store data in a structured way
 * Storing app’s secure credentials in environment variables
 
 --------------------------------------------------
